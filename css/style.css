@@ -368,3 +368,70 @@ a {
     line-height: 29px;
     margin-bottom: 70px;
 }
+
+.reviews__item{
+    border: 1px solid #C5AC2D;
+    padding: 45px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 270px;
+    min-height: 300px;
+    text-align: center;
+}
+
+.reviews__item-name{
+    font-family: "Fira Sans", sans-serif;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.reviews__slider .slick-dots button{
+    background-color: #C5AC2D;
+}
+
+.reviews__slider .slick-dots {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 35px;
+}
+
+.reviews__slider button {
+    margin: 0 5px;
+    line-height: 12px;
+}
+
+.feedback {
+    padding: 100px 0;
+}
+
+.feedback__inner{
+    display: flex;
+    align-items: center;
+}
+
+.feedback__images{
+    width: 50%;
+}
+
+.feedback__form{
+    width: 415px;
+    margin: 0 auto;
+}
+
+.feedback__title{
+
+}
+
+.feedback__text{
+
+}
+
+.feedback__input{
+
+}
+
+
+
+
