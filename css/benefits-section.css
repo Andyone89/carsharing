@@ -92,7 +92,9 @@
     position: absolute;
     width: 26px;
     height: 26px;
-    background-image: url('../img/Group.png');
+    background-image: image-set(
+        url("../img/small-Group-375x677.png") 1x,
+        url("../img/big-Group-1024x404.png") 2x);
     top: 12px;
     left: 34px;
 }

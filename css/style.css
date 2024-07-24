@@ -1,3 +1,6 @@
+@import "./benefits-section.css";
+
+
 html {
     box-sizing: border-box;
 }
@@ -138,11 +141,6 @@ a {
     margin-right: 50px;
     text-align: center;
 }
-
-/* .top__bottom-item:last-child {
-    margin-right: 0;
-} */
-
 
 .top__bottom-item:hover {
     transform: scale(1.25);
