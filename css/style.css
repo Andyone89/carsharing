@@ -44,11 +44,12 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    list-style: none;
 }
 
 .menu__item-link {
     text-transform: uppercase;
-    list-style: none;
+    
     margin: 0px 16px;
     font-size: 16px;
     line-height: 20px;
@@ -223,7 +224,7 @@ a {
 }
 
 .rent__title {
-    margin: 0 0 30px;
+    margin-top: 0;
     font-family: "Fira Sans", sans-serif;
     font-size: 24px;
     line-height: 30px;
@@ -235,7 +236,7 @@ a {
 }
 
 .rent__text+.rent__text {
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .rent__item {
