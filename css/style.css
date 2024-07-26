@@ -365,7 +365,7 @@ a {
 .feedback__btn {
     text-transform: uppercase;
     color: var(--white-200);
-    border: none;
+    border: 1px solid transparent;
     display: inline-block;
     padding: 16px 36px 16px;
     background-color: var(--orange-400);
@@ -374,6 +374,14 @@ a {
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.feedback__btn:hover {
+background-color: var(--white-200);
+color: var(--orange-400);
+border: 1px solid var(--orange-400);
 }
 
 .footer {
