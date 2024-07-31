@@ -407,3 +407,47 @@ border: 1px solid var(--orange-400);
     margin: 0 16px;
 }
 
+@media (max-width: 860px) {
+    .menu {
+        order: 1;
+    }
+
+    .menu__items {
+        display: block;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        background-color: var(--brown-100);
+        right: 0;
+        text-align: center;
+        padding: 20px 0;
+        transform: translateY(-500px);
+    }
+
+    .menu__item-link {
+        padding: 20px 0;
+        display: block;
+    }
+
+    .menu__btn {
+        display: block;
+        cursor: pointer;
+        width: 36px;
+        height: 24px;
+        border: none;
+        border-top: 2px solid var(--white-200);
+        border-bottom: 2px solid var(--white-200);
+        background-color: transparent;
+        position: relative;
+    }
+
+    .menu__btn::before {
+        content: '';
+        position: absolute;
+        width: 36px;
+        height: 2px;
+        background-color: var(--white-200);
+        left: 0;
+        top: 9px;
+    }
+}
