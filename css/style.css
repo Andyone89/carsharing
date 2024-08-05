@@ -476,6 +476,39 @@ a {
         left: 0;
         top: 9px;
     }
+    .heading__title{
+        margin: 16px;
+    }
 }
 
-@media (max-width: 525px){}
+@media (max-width: 525px){
+    .top__bottom-items{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .top__bottom-item{
+        margin: 10px;
+    }
+    .top__bottom-link{
+        margin-left: 0;
+    }
+    .top__bottom-text{
+      flex-directio;
+    }
+}
+
+@media (max-width: 410px){
+    .top__bottom-item{
+        width: 100%;
+    }
+    .top__bottom-link{
+        display: flex;
+        flex-direction: column;       
+    }
+    .top__bottom-link + .top__bottom-link{
+        margin-left: 0;
+    }
+    .top__bottom-text{
+        margin-left: 0; 
+    }
+}
