@@ -431,6 +431,9 @@ a {
 }
 
 @media (max-width: 1000px) {
+    .footer .menu {
+        display: none;
+    }
     .top__heading {
         display: block;
     }
@@ -475,9 +478,7 @@ a {
 }
 
 @media (max-width: 860px) {
-    .footer .menu {
-        display: none;
-    }
+  
 
     .menu {
         order: 1;
@@ -528,6 +529,13 @@ a {
 
     .feedback__images {
         display: none;
+    }
+    .footer,
+    .reviews,
+    .rent,
+    .feedback,
+    .benefits{
+        padding: 50px 0;
     }
 }
 
